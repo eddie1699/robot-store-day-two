@@ -1,0 +1,204 @@
+body {
+    background-image: url("images/milky-way.png"),url("images/graphy-dark2.png");
+    background-size:75%,20% ;
+    width: 85%;
+}
+
+html{
+    font-family: "Times New Roman", Times, serif;
+}
+
+.welcome{
+    color: #ff0000;
+}
+.headerlogo img{
+    height:180px;
+    width:180px;
+}
+
+#headername img{
+    display: block;
+    margin: auto;
+}
+
+.searchbox{
+    float: right;
+    border-color: #922727
+}
+
+.nav{
+margin: 0;
+padding: 0;
+overflow: hidden;
+font-size: 15px;
+
+}
+
+.nav{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 15px;
+    
+    }
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #922727;
+    
+    position: fixed; 
+    text-align: center;
+}
+
+.backgroundgradient a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+
+ .navbar-background a{
+    
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+a{
+    color:white;
+}
+ a:hover{
+    color: #ff0000;
+}
+
+#welcomeimage img{
+    display: block;
+    margin: auto;
+    
+}
+
+.para{
+   max-width: 800px;
+     -webkit-column-count: 2; 
+    column-count: 2;
+    text-align: center;
+    position:relative;
+    left:200px;
+    color: #ff0000;
+    font-family: "Times New Roman", Times, serif;
+    background-color: lightgray;
+}
+
+#coffeeofthemonth img{
+    display: block;
+    margin: auto;
+    
+}
+
+.welcome{
+    font-size: 35px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+footer{
+    color: #ff0000;
+    font-family: "Times New Roman", Times, serif;
+    
+}
+
+
+
+fieldset img{
+    position: relative;
+    left: 90px;
+}
+
+#robo1, #robo2, #robo3{
+    position: relative;
+    left: 80px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+fieldset{
+    border: solid #ff0000;
+    -webkit-border-radius:20px;	
+    border-radius:20px;	
+    background: lightgray;
+    height: 100%
+}
+
+legend{
+    position: relative;
+    left: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+article{
+    position: relative;
+    left: 80px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+p, textarea, select, address{
+    position: relative;
+    left: 80px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+input{
+    position: relative;
+    left: 200px;
+}
+
+button{
+    position: relative;
+    left: 80px;
+    height: 40px;
+    width: 100px;
+}
+
+.imgrobo1{
+    width: 150px;
+    height: 150px;
+}
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("https://media.giphy.com/media/l41lO3XKps6PUdUsw/giphy.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#fullname:focus {
+    border-left: 15px solid #ff0000;
+  }
+  #email:focus {
+    border-left: 15px solid #ff0000;
+  }
+  #yloc:focus {
+    border-left: 15px solid #ff0000;
+  }
+  #quest:focus {
+    border-left: 15px solid #ff0000;
+  }
